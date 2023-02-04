@@ -1,5 +1,5 @@
 <template>
-  <b-container style="background-color: #111111; height: 100vh" fluid>
+  <b-container style="background: none; height: 100vh" fluid>
     <b-row align-h="between" class="text-center h-50">
       <b-col
         cols="7"
@@ -33,8 +33,13 @@ export default {
   },
 }
 </script>
-<style>
+<style scoped>
 .hud {
   /* background-color: aqua; */
+}
+* {
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 </style>
